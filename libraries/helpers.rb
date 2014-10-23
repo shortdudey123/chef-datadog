@@ -1,3 +1,5 @@
+# Helper methods needed to support encrypted databags
+
 module DataDog
   def data_bag_item
     name = node['datadog']['databag']['name']
